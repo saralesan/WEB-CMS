@@ -106,9 +106,16 @@ coverage
 # Strapi
 ############################
 
+config/database.js
 .env
 license.txt
 exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# VSCode
+############################
+
+.vscode
