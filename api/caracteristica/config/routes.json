@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/caracteristica",
+      "handler": "caracteristica.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/caracteristica",
+      "handler": "caracteristica.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/caracteristica",
+      "handler": "caracteristica.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
