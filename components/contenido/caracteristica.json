@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contenido_caracteristicas",
+  "info": {
+    "name": "Caracteristica",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_title": {
+      "type": "string"
+    }
+  }
+}
