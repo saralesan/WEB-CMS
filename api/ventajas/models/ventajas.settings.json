@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "Advantages",
+  "info": {
+    "name": "Ventajas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Contenido": {
+      "type": "dynamiczone",
+      "components": [
+        "contenido.texto"
+      ],
+      "required": true
+    }
+  }
+}

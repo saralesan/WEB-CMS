@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ventajas",
+      "handler": "ventajas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ventajas",
+      "handler": "ventajas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ventajas",
+      "handler": "ventajas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
