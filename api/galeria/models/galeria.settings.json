@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "gallery",
+  "info": {
+    "name": "Galería",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slider_content": {
+      "type": "dynamiczone",
+      "components": [
+        "diapositivas.slider-item"
+      ],
+      "required": false,
+      "min": 1
+    }
+  }
+}
