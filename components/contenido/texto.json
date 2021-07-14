@@ -16,7 +16,7 @@
       "required": true
     },
     "modal_image": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images"

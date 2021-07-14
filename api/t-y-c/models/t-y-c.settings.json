@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "t_y_cs",
+  "info": {
+    "name": "T y C"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

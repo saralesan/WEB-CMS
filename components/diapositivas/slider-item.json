@@ -26,6 +26,16 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "desktop_large": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
