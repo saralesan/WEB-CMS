@@ -107,6 +107,7 @@ coverage
 ############################
 
 config/database.js
+config/plugins.js
 .env
 license.txt
 exports
